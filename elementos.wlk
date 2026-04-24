@@ -7,10 +7,11 @@ object raqueta {
     method valorFinal() {
         
         valorBase * victoria.edad()
+
         if (valorBase > 3000) {
             valorBase -= (valorBase - 3000)
         }
     }
     
-    method valor() = valorFinal
+    method valor() = valorFinal()
 }
