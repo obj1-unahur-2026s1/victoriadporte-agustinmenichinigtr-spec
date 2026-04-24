@@ -6,3 +6,11 @@ object tenis {
 
     method valor() = valorBase + valorHincha * cantidadHinchas
 }
+
+object judo {
+    const valorBase = 160
+
+    var cantidadMedallas = 3
+
+    method valor() = valorBase * cantidadMedallas
+}
