@@ -15,3 +15,9 @@ object raqueta {
     
     method valor() = valorFinal()
 }
+
+object trajeJudo {
+    const valorBase = 50 * victoria.altura()
+
+    method valor() = 
+}
