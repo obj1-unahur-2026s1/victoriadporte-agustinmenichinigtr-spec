@@ -9,8 +9,8 @@ object victoria {
     var objetoImportante = "objeto"
     var disciplina = 1
     var presupuestoPropio = numeroEntrenadores + entrenador.valor()
-    var presupuestoBase = 1
-    var numeroEntrenadores = 1
+    var presupuestoBase = 0
+    var numeroEntrenadores = 0
 
     method presupuesto() = presupuestoBase + presupuestoPropio
     method edad() = edad
@@ -27,7 +27,7 @@ object victoria {
 }
 
 object entrenador {
-    var valor = 1
+    var valor = 500
 
-    method valor() = valor
+    method valor() = valor * victoria.numeroEntrenadores()
 }
