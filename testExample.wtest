@@ -1,9 +1,21 @@
 import example.pepita
+import victoria.*
 
 describe "group of tests for pepita" {
 
   test "pepita has initial energy" {
     assert.equals(100, pepita.energy())
+  }
+
+}
+
+describe "victoriaJuegaJudo" {
+  
+  test "victoria puede costear entrar a Judo" {
+    victoria.numeroEntrenadores() = 4
+    victoria.altura() = 150
+    victoria.pagar_(trajeJudo)
+    victoria.pagar_(entrenador.valor())
   }
 
 }
