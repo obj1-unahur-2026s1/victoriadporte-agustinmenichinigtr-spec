@@ -2,15 +2,13 @@ import victoria.*
 
 object raqueta {
     
-    const valorBase = 100 
+    const valorBase = 50000 
     
     method valorFinal() {
         
-        valorBase * victoria.edad()
+        return ((valorBase * victoria.edad()).max(3000))
 
-        if (valorBase > 3000) {
-            valorBase -= (valorBase - 3000)
-        }
+        
     }
     
     method valor() = valorFinal()
@@ -19,5 +17,5 @@ object raqueta {
 object trajeJudo {
     const valorBase = 50 * victoria.altura()
 
-    method valor() = 
+    method valor() = valorBase
 }
