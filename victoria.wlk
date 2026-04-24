@@ -1,3 +1,5 @@
+
+//se usa polimorfismo para métodos "valor" para asi ser usados en el presupuesto de Victoria
 object victoria {
     var edad = 500
     var altura = 50
@@ -10,6 +12,9 @@ object victoria {
     method presupuesto() = presupuestoBase + presupuestoPropio
     method edad() = edad
     method altura() = altura
+    method objetoImportante = objetoImportante
+    method disciplina = disciplina
+    method numeroEntrenadores = numeroEntrenadores
 }
 
 object entrenador {
