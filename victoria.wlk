@@ -18,6 +18,12 @@ object victoria {
     method objetoImportante = objetoImportante
     method disciplina = disciplina
     method numeroEntrenadores = numeroEntrenadores
+    
+    method pagar_(monto) {
+       
+        self.presupuesto() -= monto.valor()
+
+    }
 }
 
 object entrenador {
