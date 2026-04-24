@@ -16,6 +16,8 @@ describe "victoriaJuegaJudo" {
     victoria.altura() = 150
     victoria.pagar_(trajeJudo)
     victoria.pagar_(entrenador.valor())
+
+    assert.that(victoria.presupuesto() >= 0)
   }
 
 }

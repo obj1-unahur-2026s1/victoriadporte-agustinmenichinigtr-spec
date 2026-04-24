@@ -5,7 +5,7 @@ import elementos.*
 
 object victoria {
     var edad = 500
-    var altura = 50
+    var altura = 170
     var objetoImportante = "objeto"
     var disciplina = 1
     var presupuestoPropio = numeroEntrenadores + entrenador.valor()
@@ -17,7 +17,7 @@ object victoria {
     method altura() = altura
     method objetoImportante = objetoImportante
     method disciplina = disciplina
-    method numeroEntrenadores = numeroEntrenadores
+    method numeroEntrenadores() = numeroEntrenadores
     
     method pagar_(monto) {
        

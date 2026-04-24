@@ -2,7 +2,7 @@ import victoria.*
 
 object raqueta {
     
-    const valorBase = 50000 
+    const valorBase = 100 
     
     method valorFinal() {
         
