@@ -1,5 +1,8 @@
 
 //se usa polimorfismo para métodos "valor" para asi ser usados en el presupuesto de Victoria
+import elementos.*
+
+
 object victoria {
     var edad = 500
     var altura = 50
